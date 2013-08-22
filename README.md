@@ -33,9 +33,9 @@ The install process is the same as [Arduino Leonardo install](http://arduino.cc/
 ## Programming
 The programming is done with the [Arduino IDE](http://arduino.cc/en/Main/Software), as PRismino is basically an Arduino it's fully compatible with Arduino libraries. Use the [Arduino programming documentation](http://arduino.cc/en/Reference/HomePage) for reference,
 
-Additionnaly to the Arduino libraries the PRismino has its own [libraries](https://github.com/Robopoly/prismino-libraries) to complement its function set in order to use the [Robopoly Shield](https://github.com/Robopoly/Robopoly-Shield) effectivly.
+Additionnaly to the Arduino libraries the [PRismino has its own library](https://github.com/Robopoly/prismino-library) to complement its function set in order to use the [Robopoly Shield](https://github.com/Robopoly/Robopoly-Shield) effectivly.
 
-In order to use the PRismino libraries they have to be downloaded and copied to the respective folders (which varies with the operating system), see the [official guide](http://arduino.cc/en/Guide/Libraries) on how to add libraries to Arduino IDE.
+In order to use the PRismino library they have to be downloaded and copied to the respective folders (which varies with the operating system), see the [official guide](http://arduino.cc/en/Guide/Libraries) on how to add libraries to Arduino IDE.
 
 ### Atmel Studio
 
@@ -45,9 +45,9 @@ Programming can also be done with Atmel Studio, the official tool to program AVR
 
 * **Timer0**: 8-bit timer, used by Arduino for such functions as `delay()`, `millis()` and `micros()`.
 * **Timer1**: 16-bit timer, used by Arduino for the Servo library.
-* **Timer2**: doesn't exist on the ATmega32u4, used by the `tone()` function, since it doesn't exist a new function named `play()` and sharing the timer0 was made in the [PRismino library](https://github.com/Robopoly/prismino-libraries).
+* **Timer2**: doesn't exist on the ATmega32u4, used by the `tone()` function, since it doesn't exist a new function named `play()` and sharing the timer0 was made in the [PRismino library](https://github.com/Robopoly/prismino-library).
 * **Timer3**: 16-bit timer, shares the same prescaler as timer1, not used.
-* **Timer4**: 10-bit timer, used by the motors library for the shield.
+* **Timer4**: 10-bit timer, used for the H-bridge on the shield.
 
 ## Pinout
 
