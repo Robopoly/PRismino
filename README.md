@@ -13,7 +13,7 @@ The board size is exactly 50 by 50mm in order to be produced as cost effectivly 
 Electronic components are bought from [Mouser](http://ch.mouser.com/) and the connectors from [4uConnectors](http://www.4uconnector.com/).
 
 ### The kit
-It is intended to be part of a kit named [_Kit PRisme_](http://robopoly.epfl.ch/prisme) comprising of the [Robopoly Shield](https://github.com/Robopoly/Robopoly-Shield), the [power board](https://github.com/Robopoly/Power-Board) and various sensors and accessories to build a mobile platform in order to participate at the different [challenges](http://robopoly.epfl.ch/concours) organised by the robotics club through the academic year.
+It is intended to be part of a kit named [_Kit PRisme_](http://robopoly.epfl.ch/prisme) comprising of the [Robopoly Shield](https://github.com/Robopoly/Robopoly-Shield), the [power board](https://github.com/Robopoly/Power-Board) and various sensors and accessories to build a mobile platform in order to participate at the different [challenges](http://robopoly.epfl.ch/evenements) organised by the robotics club through the academic year.
 
 ### The name
 The PRismino name comes from _Plateforme Robotique_ in french and _isme_ was added for _PRisme_ as it was easier to pronounce. Then _ino_ was added with the 3rd generation as it became an Arduino (but the Arduino name is copyrighted) and also because _prismino_ means _small prism_ in italian.
