@@ -122,12 +122,12 @@ All additional files needed to generate the board are in the [Robopoly Eagle CAD
 
 ## Version log
 
-### 2.0 (2014-02-05)
+### 2.0 (2014-03-04)
 
 * Removed resistor `R1`. Originally needed to launch the bootloader after the reset button is clicked, but the `BOOTRST` fuse bit takes care of that.
 * Reordered component numbering. After `R1` was removed component numbering had to be reordered. The passive elements were also ordered in the order in which they should be soldered.
 * Moved default oscillator frequency silkscreen markings under the oscillator as one could solder an oscillator with a different frequency (8MHz to work at 3.3V for example) and the silkscreen would be wrong then.
-* Modified some silkscreen text, updated version number and year.
+* Modified some silkscreen text and placement, updated version number and year.
 * Routed USB data lines closer to each other.
 * Made PCB corners round.
 * Updated CAD and Gerber files.
