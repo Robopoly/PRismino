@@ -122,7 +122,7 @@ All additional files needed to generate the board are in the [Robopoly Eagle CAD
 
 ## Version log
 
-### 2.0 (2014-03-04)
+### 2.0 (2014-07-24)
 
 * Removed resistor `R1`. Originally needed to launch the bootloader after the reset button is clicked, but the `BOOTRST` fuse bit takes care of that.
 * Reordered component numbering. After `R1` was removed component numbering had to be reordered. The passive elements were also ordered in the order in which they should be soldered.
