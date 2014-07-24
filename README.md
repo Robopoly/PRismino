@@ -109,7 +109,7 @@ For example to toggle the LED pin which is on the pin 13, but physically on the 
 | Male USB A to male micro USB B cable |               | 1        |
 | 1uF 0805 UCAP capacitor              |               | 1        |
 | DC Plug                              |               | 1        |
-| 5V regulator                         |               | 1        |
+| 5V regulator                         | NCP1117       | 1        |
 | 2x3 male pins (SPI)                  | 4UCON-00989   | 1        |
 
 There are two types of footprints for the micro-controller on the PCB, the QFN is small enough to fit inside the TQFP footprint
@@ -131,6 +131,7 @@ All additional files needed to generate the board are in the [Robopoly Eagle CAD
 * Routed USB data lines closer to each other.
 * Made PCB corners round.
 * Updated CAD and Gerber files.
+* Added solder jumper between linear regulator and 5V line to prevent accidental shorts on the big heat sink pad.
 * Added component list.
 
 ### 1.0 (2013-07-08)
